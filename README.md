@@ -1,14 +1,2 @@
-function setup() {
-  createCanvas(600, 600);
-  background ("black");
-}
+#js-escrevenome
 
-function draw() {
-  stroke("blue");
-  fill("red");
-  
-  if(mouseIsPressed){
-    rect(mouseX, movedY, 20, 35);
-  }
-  
-}
